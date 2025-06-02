@@ -2,6 +2,7 @@
     "name": "lalusahibul/fakenik",
     "description": "Generator NIK untuk data dummy di Laravel",
     "keywords": ["laravel", "nik", "generator", "acak"],
+    "license": "MIT",
     "type": "library",
     "authors": [
         {
