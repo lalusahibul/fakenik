@@ -1,0 +1,30 @@
+{
+    "name": "lalusahibul/fakenik",
+    "description": "Generator NIK untuk data dummy di Laravel",
+    "keywords": ["laravel", "nik", "generator", "acak"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Lalu Sahibul",
+            "email": "lalu113ul@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fakenik\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^9.0"
+    },
+    "require-dev": {
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fakenik\\FakenikServiceProvider"
+            ]
+        }
+    }
+}
